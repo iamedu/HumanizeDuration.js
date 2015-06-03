@@ -396,7 +396,7 @@
   } else if (typeof module !== "undefined" && module.exports) {
     module.exports = humanizeDuration;
   } else {
-    this.humanizeDuration = humanizeDuration;
+    window.humanizeDuration = humanizeDuration;
   }
 
 })();
